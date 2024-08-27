@@ -2,7 +2,7 @@
 
 set -e
 
-export TAG_VERSION=$(git describe --tags --abbrev=0 | sed 's/^v//')
+export TAG_VERSION=$(git describe --tags --abbrev=0 | sed 's/^v[.]//;s/^v//')
 export GIT_HEAD=$(git rev-parse HEAD)
 
 pnpm i --frozen-lockfile
