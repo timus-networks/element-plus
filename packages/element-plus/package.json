@@ -1,6 +1,6 @@
 {
   "name": "@timus-networks/element-plus",
-  "version": "2.3.12",
+  "version": "1.0.3",
   "description": "A Component Library for Vue 3",
   "keywords": [
     "element-plus",
@@ -112,5 +112,5 @@
     "not ie 11",
     "not op_mini all"
   ],
-  "gitHead": "bb4cf0370ff40413fae6f88c2c545698f6afefac"
+  "gitHead": "fb883579bbb606aed2951fe2e8e83289949df272"
 }
